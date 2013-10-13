@@ -1,0 +1,45 @@
+body {
+ background-color: maroon;
+}
+
+.menuButton {
+ /* Disable text-select since button */
+ user-select: none;
+ -moz-user-select: none;
+ -webkit-user-select: none;
+ -ms-user-select: none; 
+ -o-user-select: none;
+
+ background-color: white;
+ border: 1px solid black;
+ border-radius: 5px;
+
+ padding: 20px;
+ margin: 0 auto;
+ margin-top: 15px;
+ width: 160px;
+
+ display: block;
+ text-align: center;
+ font-family: arial;
+}
+
+.menuButton:hover {
+ cursor: pointer;
+ background-color: yellow;
+}
+
+.menuIcon {
+ height:20px;
+ margin-left:10px;
+}
+
+#copyrightContainer {
+ margin-top: 25px;
+ font-size: 12px;
+ font-style: oblique;
+ color: white;
+
+ width: 100%;
+ text-align: center;
+}
