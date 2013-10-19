@@ -2,6 +2,17 @@ body {
  background-color: maroon;
 }
 
+body {
+ background-color: maroon;
+}
+a:link{
+    text-decoration:none;
+
+    }
+a:visited{
+    color:black;
+    }
+
 .menuButton {
  /* Disable text-select since button */
  user-select: none;
@@ -9,11 +20,11 @@ body {
  -webkit-user-select: none;
  -ms-user-select: none; 
  -o-user-select: none;
-
+font-size:25px;
  background-color: white;
  border: 1px solid black;
  border-radius: 5px;
-
+font-weight:bold;
  padding: 20px;
  margin: 0 auto;
  margin-top: 15px;
@@ -26,7 +37,7 @@ body {
 
 .menuButton:hover {
  cursor: pointer;
- background-color: yellow;
+ background-color: red;
 }
 
 .menuIcon {
